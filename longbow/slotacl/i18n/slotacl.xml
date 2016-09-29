@@ -1,0 +1,54 @@
+    <Package name="RWT: Slot access control list">
+        <Container name="Changelog, credits">
+            <Key ID="STR_RWT_SLOTACL_NAME">
+                <Original>Slot ACL</Original>
+                <English>Slot ACL</English>
+                <Russian>Слот-контроль</Russian>
+            </Key>
+            <Key ID="STR_RWT_SLOTACL_DESC">
+                <Original>Slot access control lists&lt;br /&gt;Version 1.0&lt;br /&gt;Allows to configure white/black lists for slots&lt;br /&gt;Brought to you by longbow&lt;br /&gt;https://github.com/ussrlongbow</Original>
+                <English>Slot access control lists&lt;br /&gt;Version 1.0&lt;br /&gt;Allows to configure white/black lists for slots&lt;br /&gt;Brought to you by longbow&lt;br /&gt;https://github.com/ussrlongbow</English>
+                <Russian>Управление доступом для слотов&lt;br /&gt;Version 1.0&lt;br /&gt;Позволяет настраивать белые и черные списки для слотов&lt;br /&gt;Создано longbow&lt;br /&gt;https://github.com/ussrlongbow</Russian>
+            </Key>
+        </Container>
+        <Container name="Parameters">
+            <Key ID="STR_RWT_SLOTACL_PARAM_ENABLE">
+                <Original>=== RWT: Slot access control lists</Original>
+                <English>=== RWT: Slot access control lists</English>
+                <Russian>=== RWT: Система контроля доступа к слотам</Russian>
+            </Key>
+            <Key ID="STR_RWT_SLOTACL_PARAM_ENABLE_ON">
+                <Original>Enabled</Original>
+                <English>Enabled</English>
+                <Russian>Включено</Russian>
+            </Key>
+            <Key ID="STR_RWT_SLOTACL_PARAM_ENABLE_OFF">
+                <Original>Disabled</Original>
+                <English>Disabled</English>
+                <Russian>Отключено</Russian>
+            </Key>
+        </Container>
+        <Container name="Debriefing">
+            <Key ID="STR_RWT_SLOTACL_DEBRIEF_WHITELIST">
+                <Original>NOT IN WHITE LIST</Original>
+                <English>NOT IN WHITE LIST</English>
+                <Russian>Не в белом списке</Russian>
+            </Key>
+            <Key ID="STR_RWT_SLOTACL_DEBRIEF_WHITELIST_DESC">
+                <Original>This slot requires whitelisting. You are not in this whitelist. Contact server administrator for more details</Original>
+                <English>This slot requires whitelisting. You are not in this whitelist. Contact server administrator for more details</English>
+                <Russian>Вам необходимо быть в белом списке, чтобы занять этот слот. Свяжитесь с администратором сервера для более подробной информации</Russian>
+            </Key>
+            <Key ID="STR_RWT_SLOTACL_DEBRIEF_BLACKLIST">
+                <Original>BLACK LISTED</Original>
+                <English>BLACK LISTED</English>
+                <Russian>В ЧЕРНОМ СПИСКЕ</Russian>
+            </Key>
+            <Key ID="STR_RWT_SLOTACL_DEBRIEF_BLACKLIST_DESC">
+                <Original>You are blacklisted from taking this slot. Contact server administrator for more details</Original>
+                <English>You are blacklisted from taking this slot. Contact server administrator for more details</English>
+                <Russian>Вам запрещено занимать этот слот. Свяжитесь с администратором сервера для более подробной информации</Russian>
+            </Key>
+        </Container>
+    </Package>
+
