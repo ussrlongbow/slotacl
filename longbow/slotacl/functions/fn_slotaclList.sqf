@@ -33,3 +33,6 @@ if (!isServer) exitWith {};
 // RWT_SLOTACL_DENY(pilot1) = ["456","789"];
 // RWT_SLOTACL_DENY(pilot2) = ["456","789"];
 
+#include "..\settings\blacklist.hpp"
+#include "..\settings\whitelist.hpp"
+
